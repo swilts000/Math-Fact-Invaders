@@ -1,0 +1,207 @@
+// !${PROJECT_FILE_FORMATVERSION}!
+{
+  archiveVersion = 1;
+  classes = {};
+  objectVersion = 55;
+  objects = {
+    /* Begin PBXProject section */
+    000000000000000000000000 /* Project object */ = {
+      isa = PBXProject;
+      attributes = {
+        LastUpgradeCheck = 1400;
+      };
+      buildConfigurationList = 000000000000000000000001 /* Build configuration list for PBXProject */;
+      compatibilityVersion = "Xcode 14.0";
+      developmentRegion = en;
+      hasScannedForEncodings = 0;
+      knownRegions = (
+        en,
+        Base,
+      );
+      mainGroup = 000000000000000000000002;
+      productRefGroup = 000000000000000000000003 /* Products */;
+      projectDirPath = "";
+      projectRoot = "";
+      targets = (
+        000000000000000000000010 /* MathFactInvaders */,
+      );
+    };
+    /* End PBXProject section */
+
+    /* Begin XCConfigurationList section */
+    000000000000000000000001 /* Build configuration list for PBXProject */ = {
+      isa = XCConfigurationList;
+      buildConfigurations = (
+        000000000000000000000020 /* Debug */,
+        000000000000000000000021 /* Release */,
+      );
+      defaultConfigurationIsVisible = 0;
+      defaultConfigurationName = Release;
+    };
+    /* End XCConfigurationList section */
+
+    /* Begin PBXGroup section */
+    000000000000000000000002 = {
+      isa = PBXGroup;
+      children = (
+        000000000000000000000004 /* MathFactInvaders */,
+        000000000000000000000003 /* Products */,
+      );
+      sourceTree = "<group>";
+    };
+
+    000000000000000000000004 = {
+      isa = PBXGroup;
+      children = (
+        000000000000000000000030 /* MathFactInvadersApp.swift */,
+        000000000000000000000031 /* ContentView.swift */,
+        000000000000000000000032 /* GameModel.swift */,
+        000000000000000000000033 /* GameScene.swift */,
+        000000000000000000000034 /* Info.plist */,
+        000000000000000000000035 /* Assets.xcassets */,
+      );
+      path = "";
+      sourceTree = "<group>";
+    };
+
+    000000000000000000000003 = {
+      isa = PBXGroup;
+      children = (
+        000000000000000000000011 /* MathFactInvaders.app */,
+      );
+      name = Products;
+      sourceTree = "<group>";
+    };
+    /* End PBXGroup section */
+
+    /* Begin PBXFileReference section */
+    000000000000000000000030 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathFactInvadersApp.swift; sourceTree = "<group>"; };
+    000000000000000000000031 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+    000000000000000000000032 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+    000000000000000000000033 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+    000000000000000000000034 = { isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+    000000000000000000000035 = { isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+    000000000000000000000011 = { isa = PBXFileReference; explicitFileType = "wrapper.application"; path = MathFactInvaders.app; sourceTree = BUILT_PRODUCTS_DIR; };
+    /* End PBXFileReference section */
+
+    /* Begin PBXSourcesBuildPhase section */
+    000000000000000000000040 = {
+      isa = PBXSourcesBuildPhase;
+      buildActionMask = 2147483647;
+      files = (
+        000000000000000000000050 /* MathFactInvadersApp.swift in Sources */,
+        000000000000000000000051 /* ContentView.swift in Sources */,
+        000000000000000000000052 /* GameModel.swift in Sources */,
+        000000000000000000000053 /* GameScene.swift in Sources */,
+      );
+      runOnlyForDeploymentPostprocessing = 0;
+    };
+    /* End PBXSourcesBuildPhase section */
+
+    /* Begin PBXResourcesBuildPhase section */
+    000000000000000000000041 = {
+      isa = PBXResourcesBuildPhase;
+      buildActionMask = 2147483647;
+      files = (
+        000000000000000000000060 /* Assets.xcassets in Resources */,
+        000000000000000000000061 /* Info.plist in Resources */,
+      );
+      runOnlyForDeploymentPostprocessing = 0;
+    };
+    /* End PBXResourcesBuildPhase section */
+
+    /* Begin PBXCopyFilesBuildPhase section */
+    000000000000000000000042 = {
+      isa = PBXCopyFilesBuildPhase;
+      buildActionMask = 2147483647;
+      dstPath = "";
+      dstSubfolderSpec = 0;
+      files = (
+      );
+      runOnlyForDeploymentPostprocessing = 0;
+    };
+    /* End PBXCopyFilesBuildPhase section */
+
+    /* Begin PBXFrameworksBuildPhase section */
+    000000000000000000000043 = {
+      isa = PBXFrameworksBuildPhase;
+      buildActionMask = 2147483647;
+      files = (
+      );
+      runOnlyForDeploymentPostprocessing = 0;
+    };
+    /* End PBXFrameworksBuildPhase section */
+
+    /* Begin PBXNativeTarget section */
+    000000000000000000000010 = {
+      isa = PBXNativeTarget;
+      buildConfigurationList = 000000000000000000000012 /* Build configuration list for PBXNativeTarget "MathFactInvaders" */;
+      buildPhases = (
+        000000000000000000000040,
+        000000000000000000000041,
+        000000000000000000000043,
+      );
+      buildRules = (
+      );
+      dependencies = (
+      );
+      name = "MathFactInvaders";
+      productName = "MathFactInvaders";
+      productReference = 000000000000000000000011 /* MathFactInvaders.app */;
+      productType = "com.apple.product-type.application";
+    };
+    /* End PBXNativeTarget section */
+
+    /* Begin XCBuildConfiguration section */
+    000000000000000000000020 = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        PRODUCT_NAME = "$(TARGET_NAME)";
+        SWIFT_VERSION = 5.0;
+        IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+      };
+      name = Debug;
+    };
+
+    000000000000000000000021 = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        PRODUCT_NAME = "$(TARGET_NAME)";
+        SWIFT_VERSION = 5.0;
+        IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+        ONLY_ACTIVE_ARCH = YES;
+      };
+      name = Release;
+    };
+
+    000000000000000000000013 = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        PRODUCT_NAME = "MathFactInvaders";
+      };
+      name = Debug;
+    };
+
+    000000000000000000000014 = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        PRODUCT_NAME = "MathFactInvaders";
+      };
+      name = Release;
+    };
+    /* End XCBuildConfiguration section */
+
+    /* Begin XCConfigurationList for target */
+    000000000000000000000012 = {
+      isa = XCConfigurationList;
+      buildConfigurations = (
+        000000000000000000000013,
+        000000000000000000000014,
+      );
+      defaultConfigurationIsVisible = 0;
+      defaultConfigurationName = Release;
+    };
+    /* End XCConfigurationList for target */
+  };
+  rootObject = 000000000000000000000000 /* Project object */;
+}
